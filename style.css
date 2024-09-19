@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://th.bing.com/th/id/R.13e4de6c5c7420bd8935bfd1993f409b?rik=Cu5%2fJxYrwQFxwA&riu=http%3a%2f%2f1.bp.blogspot.com%2f-45yXdYNicDo%2fTlVLVE6jqqI%2fAAAAAAAADX8%2fjWWUTjEp34Y%2fs1600%2fpaisagem-montanhosa-imagens-imagem-de-fundo-wallpaper-para-pc-computador-tela-gratis-ambiente-de-trabalho.jpg&ehk=X0f9J7m29J2S57t1%2bumCW793%2bAHdyRfz2fYyRU698iM%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*#f5f2d0;*/
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cabecalho{
+    width: 150px;/* usar para aumentar ou dimiuir tamnaho da imagem*/
+    height: auto;
+    filter: brightness(85%);
+}
+
+.container {
+    background-color: #f5f2d091;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.812);
+    width: 300px;
+    z-index: 1;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #286e29c7;
+}
+
+.cadastre-se {
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color: #0e6010;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.text-ou{
+    text-align: center;
+    margin: 8px;
+    padding: 0;
+}
+
+.nao-possui-login {
+    align-items: center;
+    text-align: center;
+    font: size 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: #0d6c35;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d6c35c0;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out ;
+}
