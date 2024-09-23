@@ -77,7 +77,10 @@ input, textarea {
 textarea {
     resize: vertical;
     min-height: 100px;
+    background-color: re;
 }
+
+
 
 .text-ou{
     text-align: center;

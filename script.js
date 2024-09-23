@@ -1,4 +1,4 @@
-document.getElementById("contactForm").addEventListener("submit", function(event) {
+/*document.getElementById("contactForm").addEventListener("submit", function(event) {
     event.preventDefault();
 
     const name = document.getElementById("name").value;
@@ -19,4 +19,4 @@ document.getElementById("contactForm").addEventListener("submit", function(event
 function validateEmail(email) {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return re.test(String(email).toLowerCase());
-}
+}*/
